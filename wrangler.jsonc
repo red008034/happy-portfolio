@@ -7,7 +7,7 @@
     {
       "binding": "DB",
       "database_name": "happy-portfolio",
-      "database_id": "PASTE_YOUR_D1_DATABASE_ID_HERE"
+      "database_id": "a35b652e-fa81-4beb-a058-bc5fab2535d6"
     }
   ],
   "triggers": {
