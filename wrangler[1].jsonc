@@ -1,0 +1,19 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "happy-portfolio-live",
+  "main": "index.js",
+  "compatibility_date": "2026-09-09",
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "happy-portfolio",
+      "database_id": "PASTE_YOUR_D1_DATABASE_ID_HERE"
+    }
+  ],
+  "triggers": {
+    "crons": ["30 23 * * 1-5"]
+  },
+  "observability": {
+    "enabled": true
+  }
+}
